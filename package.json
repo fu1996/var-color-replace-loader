@@ -4,7 +4,7 @@
   "description": "a loader can replace var color",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/fu1996/var-color-replace-loader/issues"
   },
-  "homepage": "https://github.com/fu1996/var-color-replace-loader#readme"
+  "homepage": "https://github.com/fu1996/var-color-replace-loader#readme",
+  "peerDependencies": {
+    "@osui/theme": "0.10.x"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
 }
