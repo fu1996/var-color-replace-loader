@@ -1,0 +1,24 @@
+{
+  "name": "var-color-replace-loader",
+  "version": "1.0.0",
+  "description": "a loader can replace var color",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fu1996/var-color-replace-loader.git"
+  },
+  "keywords": [
+    "var",
+    "color",
+    "replace"
+  ],
+  "author": "fu1996",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fu1996/var-color-replace-loader/issues"
+  },
+  "homepage": "https://github.com/fu1996/var-color-replace-loader#readme"
+}
