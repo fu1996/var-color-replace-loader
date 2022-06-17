@@ -1,14 +1,9 @@
-const colorVarJson = require('@osui/theme/dist');
-
-const {lightColors} = colorVarJson;
-
-
 const colorRe = /#([0-9a-fA-F]{6}|[0-9a-fA-F]{3})/g;
 
-const varColor = rawColor => {
-    for (const key in lightColors) {
-        if (Object.hasOwnProperty.call(lightColors, key)) {
-            const element = lightColors[key];
+const varColor = (rawColor, colorMap) => {
+    for (const key in colorMap) {
+        if (Object.hasOwnProperty.call(colorMap, key)) {
+            const element = colorMap[key];
             if (element === rawColor) {
                 return key;
             }
@@ -17,10 +12,12 @@ const varColor = rawColor => {
 };
 
 function loader(source) {
+    console.log('source', source);
+    const {colorMap = {}} = this.getOptions();
     const matchResults = source.match(colorRe);
     if (Array.isArray(matchResults) && matchResults.length > 0) {
         Array.from(new Set(matchResults)).forEach(rawColor => {
-            const key = varColor(rawColor);
+            const key = varColor(rawColor, colorMap);
             if (key) {
                 const resultKey = `var(${key})`;
                 const reg = new RegExp(rawColor, 'g');
