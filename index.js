@@ -12,7 +12,6 @@ const varColor = (rawColor, colorMap) => {
 };
 
 function loader(source) {
-    console.log('source', source);
     const {colorMap = {}} = this.getOptions();
     const matchResults = source.match(colorRe);
     if (Array.isArray(matchResults) && matchResults.length > 0) {
