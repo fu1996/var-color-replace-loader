@@ -1,6 +1,6 @@
 {
   "name": "var-color-replace-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a webpack loader can replace var color",
   "main": "index.js",
   "scripts": {
