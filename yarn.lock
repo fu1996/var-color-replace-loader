@@ -533,20 +533,6 @@
     "@jridgewell/resolve-uri" "^3.0.3"
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
-"@osui/icons@^0.10.2":
-  version "0.10.2"
-  resolved "https://registry.npmjs.org/@osui/icons/-/icons-0.10.2.tgz#d34227c5a8793d77c2d5cf398a963bd9638634d2"
-  integrity sha512-1RK/j/VofvrQRrRksZAjSOuVKCtPFpKR465Hk7neGM+UUUjaWpJfwQBsHMrFgqjLDhmTBbVNU9h/gn58OA1Thw==
-  dependencies:
-    classnames "^2.2.6"
-
-"@osui/theme@0.10.x":
-  version "0.10.8"
-  resolved "https://registry.npmjs.org/@osui/theme/-/theme-0.10.8.tgz#76dc8c4992cb135e5c8b5064de5ca45d1effc0ca"
-  integrity sha512-yWWVKcZt8InSmDCY/+AtW+/Rt67fm0MlCPnFinU9GbGzGxlikJL3i5ctg2UImo6YiORM1/NoEHbRLp9iT+FEdA==
-  dependencies:
-    "@osui/icons" "^0.10.2"
-
 "@sinclair/typebox@^0.23.3":
   version "0.23.5"
   resolved "https://registry.npmjs.org/@sinclair/typebox/-/typebox-0.23.5.tgz#93f7b9f4e3285a7a9ade7557d9a8d36809cbc47d"
@@ -852,11 +838,6 @@ cjs-module-lexer@^1.0.0:
   version "1.2.2"
   resolved "https://registry.npmjs.org/cjs-module-lexer/-/cjs-module-lexer-1.2.2.tgz#9f84ba3244a512f3a54e5277e8eef4c489864e40"
   integrity sha512-cOU9usZw8/dXIXKtwa8pM0OTJQuJkxMN6w30csNRUerHfeQ5R6U3kkU/FtJeIf3M202OHfY2U8ccInBG7/xogA==
-
-classnames@^2.2.6:
-  version "2.3.1"
-  resolved "https://registry.npmjs.org/classnames/-/classnames-2.3.1.tgz#dfcfa3891e306ec1dad105d0e88f4417b8535e8e"
-  integrity sha512-OlQdbZ7gLfGarSqxesMesDa5uz7KFbID8Kpq/SxIoNGDqY8lSYs0D+hhtBXhcdB3rcbXArFr7vlHheLk1voeNA==
 
 cliui@^7.0.2:
   version "7.0.4"

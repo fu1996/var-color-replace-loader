@@ -1,7 +1,7 @@
 {
   "name": "var-color-replace-loader",
   "version": "1.0.1",
-  "description": "a loader can replace var color",
+  "description": "a webpack loader can replace var color",
   "main": "index.js",
   "scripts": {
     "test": "jest"
@@ -13,7 +13,9 @@
   "keywords": [
     "var",
     "color",
-    "replace"
+    "replace",
+    "webpack",
+    "loader"
   ],
   "author": "fu1996",
   "license": "ISC",
@@ -21,9 +23,6 @@
     "url": "https://github.com/fu1996/var-color-replace-loader/issues"
   },
   "homepage": "https://github.com/fu1996/var-color-replace-loader#readme",
-  "peerDependencies": {
-    "@osui/theme": "0.10.x"
-  },
   "devDependencies": {
     "jest": "^28.1.1"
   }
